@@ -10,11 +10,11 @@ const {menu, generalSettings} = Astro.props;
             <a href="/" class='site-name'>{generalSettings.title}</a>
         </div>
         <ul>
-           {menu.menuItems.nodes.map(menuItem => {
+           <!-- {menu.menuItems.nodes.map(menuItem => {
             return (<li>
                         <a href={menuItem.uri || '/'}>{menuItem.label}</a>
                     </li>)
-           })}
+           })} -->
         </ul>
     </nav>
 </header>
